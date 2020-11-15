@@ -41,7 +41,7 @@ vue官网：https://cn.vuejs.org/
 1、vue核心内容：vuex,axios,vue-router,其中vue-router是难点，也是重点，很重要！！
 2、UI框架：elementUI ,官网：https://element.eleme.cn/#/zh-CN/component/installation
 
-
+dfdgfgffhgh
 结语：
 入门阶段是重中之重，基础要打好！！
 
