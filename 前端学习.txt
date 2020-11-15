@@ -1,0 +1,47 @@
+对于新手来说，不建议看书，因为看书太慢，书本的文字比较晦涩难懂，而且技术更新太快，书籍跟不上它的更新换代，倒不如看文档和视频资料来的直接,
+我入门时就是看w3school教程，途中遇到不懂的就到网上搜，视频也好、文档也罢、学会就行。
+一、先了解下前端的概念，以下几篇文档可以读一读，自己也可以搜一下其他的文档看看：
+1、https://blog.csdn.net/heioowhat/article/details/78556855
+2、https://zhuanlan.zhihu.com/p/141440042
+3、https://www.zhihu.com/question/373636108?sort=created
+至此应该知道前端的技术核心有三部分组成：html、css、javascript，以及自己的工作内容是什么
+
+
+二、入门：
+1、开发工具：webstorm,sublime,vscode等，建议选用vscode，特点是轻便
+2、html及样式学习：https://www.w3school.com.cn/h.asp
+左侧导航里的HTML、HTML5、CSS、CSS3重点学，其他的了解一下就可以了；
+这部分学习时一定要手动敲一遍，每个标签以及每个标签里的属性都要自己试一下，
+标签学完后可以练习一下 HTML基础教程中的HTML布局、HTML响应设计（就是自适应布局）；
+教程里讲的左右布局方式用的是float布局，工作中也要熟练使用 flex布局，
+3、js学习：https://www.w3school.com.cn/b.asp
+左侧导航里的JavaScript,HTML DOM,jQuery,AJAX,JSON 重点学，其他的了解一下就可以了
+这部分是前端的核心，不过学起来也没那么难，因为js相比于其他语言简单很多了，平时用到的主要就是以下一些方法：
+（1）数组以及字符串的添加、删除、分割:
+ pop() ,push(),shift(),unshift(), substr(),substring(),splice(),slice()等；
+（2）数组、对象的遍历方法，常用的：
+map(),forEach(),filter(),every(),some(),Object.keys(),reduce(),for循环等
+（3）dom的操作方法
+（4）函数的闭包、回调、原型、原型链 这是重点，这部分工作时用的少，但面试时被问的频率很高
+（5）对象的深拷贝和钱拷贝，这个知识点要自己搜一下，很重要！当你发现有些数据联动了，很可能就是因为浅拷贝引起的。let arr = JSON.parse(JSON.stringify(tmpArr));//这样就实现了深拷贝，当然 实现深拷贝的方法很多，但这种简洁明了 
+（6）es6的内容可以不全学，但import, export,let 等这几个要会，因为后面学习框架时用到
+Tips:
+(1)可以简单的理解为H5就是比Html多了一些新特性、新标签 ，css3相比于css也是一样;
+(2)学习时遇到任何不懂得或者给的例子不够多以至于自己还不理解，随时到网上搜，然后做笔记，笔记很重要。
+(3)若真的能把w3school里内容学完，绝对不只是入门级别，说是入门级别是因为很多人都是走马观花，学20%就开始学框架了，然后遇到各种问题，原因就是根基不牢。。。
+以后学习的那些框架也都是在这些技术的基础之上做封装。
+
+三，框架学习
+我刚学时用的是jquery和bootstrap，感兴趣的话你可以看看，但没必要花过多时间在这上面，现在各大公司流行使用的是vue。如对React和Angular感兴趣的话也可以接触一下。jquery那一套早就不用了;
+vue官网：https://cn.vuejs.org/
+我学习vuejs 时就是看官网教程，一边看一边敲，大概有个20天吧就能尝试着写项目了。
+练习时建议不要用脚手架搭建项目，也不要用UI框架，因为一直用UI框架学习vue的话，时间长了你会觉得vue就是和UI框架一起使用的，其实不然，他们是独立的。
+直接用标签引入vue.js就可以了，如：<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> ，官网也是建议这么学的，
+等你学的差不多了再加入UI框架吧，现在流行用elementUI来搭配vue；
+1、vue核心内容：vuex,axios,vue-router,其中vue-router是难点，也是重点，很重要！！
+2、UI框架：elementUI ,官网：https://element.eleme.cn/#/zh-CN/component/installation
+
+
+结语：
+入门阶段是重中之重，基础要打好！！
+

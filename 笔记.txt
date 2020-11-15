@@ -1,0 +1,18 @@
+#h5平台:简单理解为是用网址访问的，如：网站-H5手机端，即在手机上用网址访问的系统；
+#vue 中，若data里引入了sessionStorage里的内容，但无对应的key值，则会报错，关键是此问题会影响程序运行，导致页面出不来
+如：username: JSON.parse(sessionStorage.getItem("tapUserInfo")).userName ，sessionStorage里没有tapUserInfo，此时JSON.parse(tapUserInfo).userName 则会报错，导致页面程序停止运行
+#vue.config.js 
+1、代理的意思：https://blog.csdn.net/iteye_10432/article/details/103757786
+proxy('/api', {...}) - 匹配以/api开始的路径，显然那些.JS、.css的文件就被顾虑掉了，只有前端调api请求接口的路径了，如：/label/sysManage/addApi.do
+  proxy: {
+      '/label': { 
+        target: 'http://localhost:18989', // 后端域名及端口（端口后面也可以添加路径），不考虑pathRewrite字段，则此时的请求路径是http://localhost:18989/label/sysManage/addApi.do
+        secure: false,
+        changeOrigin: true,
+        timeout: 1800000,
+		pathRewrite:{
+		'/label':'',  //若此时添加此字段，则此时的路径是http://localhost:18989/sysManage/addApi.do ,即api就被去掉了
+		},
+      },
+    }
+通常情况下label 是前端自己定的，因为后端可能没这一层路径，所以不靠谱，还是自己加一层比较好。

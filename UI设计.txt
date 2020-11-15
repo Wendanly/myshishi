@@ -1,0 +1,36 @@
+一、行业认识：
+1、https://zhuanlan.zhihu.com/p/81005062
+2、https://baijiahao.baidu.com/s?id=1628177565758376389&wfr=spider&for=pc
+3、https://jingyan.baidu.com/article/3d69c5513f1052f0ce02d77d.html
+4、https://www.bilibili.com/video/BV1vi4y1j7Yv/?spm_id_from=333.788.videocard.4
+
+至此应该知道以下几点：
+（1） 什么是UI设计？
+（2） 需要学习哪些软件？
+（1） 工作内容是什么？ 
+什么？还不知道？回去重看！！！^O^
+
+
+
+二、软件学习
+各款软件在工作中大概占比：
+PS：UI界面世界设计-70%   AI：更多是UI图标设计—5%  AE：交互动效设计-5%  AXUER：交互原型图设计-10%  ，AXUER 的官网：https://hao.pmdaohang.com/index.html
+ps的重要性，看看这个：
+（1）https://zhuanlan.zhihu.com/p/98453582 
+（2）https://www.zhihu.com/question/274868689  
+
+ps基础学习视频地址：
+（1）https://www.bilibili.com/video/av85496685/， 右侧的视频都要看
+（2）https://www.bilibili.com/video/BV1xp4y1C7jE/?spm_id_from=333.788.videocard.1 右侧的视频都要看，第一个视频比较长，属于行业引导。
+ps是基础也是最重要的，这部分认真学的话大概要持续2个月，要很熟练操作。
+
+三、规范及案例
+基础学完后看看下面的链接：
+（1）ps生成的psd格式文件如何转换成html静态页面 ，地址：https://jingyan.baidu.com/article/546ae1850560a31149f28c94.html
+（2）网页设计规范，也可以找找其他的设计规范再看看，多看点：
+https://www.bilibili.com/video/av18488668/  这个好好看
+https://v.youku.com/v_show/id_XNDMwNzE2Mjk0MA==
+https://www.bilibili.com/video/av74744310/
+（3）网页设计案例：
+https://www.bilibili.com/video/BV127411F7Nn?p=1
+https://www.bilibili.com/video/BV1xp4y1C7jE?p=1
